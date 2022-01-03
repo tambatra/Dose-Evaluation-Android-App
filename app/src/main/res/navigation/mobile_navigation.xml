@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_parametres">
+
+    <fragment
+        android:id="@+id/nav_apropos"
+        android:name="com.example.projetrp.ui.apropos.AproposFragment"
+        android:label="@string/a_propos"
+        tools:layout="@layout/fragment_apropos" />
+    <fragment
+        android:id="@+id/nav_parametres"
+        android:name="com.example.projetrp.ui.parametre.ParametresFragment"
+        android:label="@string/evaluation_de_dose"
+        tools:layout="@layout/fragment_parametres" />
+    <fragment
+        android:id="@+id/nav_loidecrets"
+        android:name="com.example.projetrp.ui.loi.LoiFragment"
+        android:label="@string/loi_et_decrets"
+        tools:layout="@layout/fragment_loidecrets" >
+        <action
+            android:id="@+id/action_nav_loidecrets_to_nav_loi_detail"
+            app:destination="@id/nav_loi_detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_loi_detail"
+        android:name="com.example.projetrp.ui.loi.LoiDetailFragment"
+        android:label="Detail Loi et Décrets"
+        tools:layout="@layout/fragment_loi_detail" >
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="subtitle"
+            app:argType="string" />
+        <argument
+            android:name="body"
+            app:argType="string" />
+    </fragment>
+</navigation>

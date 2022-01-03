@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ProjetRP</string>
+    <string name="nav_header_title">INSTN-Madagascar</string>
+    <string name="nav_header_subtitle">Département de Radioprotection</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="instn_madagascar">INSTN-Madagascar</string>
+    <string name="nos_mandats">Nos mandats</string>
+    <string name="nos_mandatsT">Promouvoir des applications pacifiques des sciences et techniques nucléaires et nanométriques pour le développement socio-économique du pays.\n\nÊtre le centre de référence du Gouvernement Malagasy en matière d\'applications pacifiques de l\'énergie nucléaire et de la nanotechnologie.\n\nS\'assurer que les travailleurs , patients, public, soient protégés contre les effets néfastes des rayonnements ionisants.</string>
+    <string name="DG">(Directeur Général: Pr RAJAOBELISON Joël)</string>
+    <string name="application">A propos de cette application</string>
+    <string name="applicationT">     Cette application consiste à évaluer la dose d\'exposition des patients en radiodiagnostic, en introduisant le paramètres d\'examens (haute tension, charge, etc) . La valeur obtenue peut être comparée avec des niveaux de références Diagnostics pour s\'assurer que les paramètres choisie soient optimals.</string>
+    <string name="numero_autorisation">Numéro d\'autorisation</string>
+    <string name="parametres_identification">Entrer les numéros d\'identification:</string>
+    <string name="numero_serie">Numéro de Série</string>
+    <string name="evaluation_de_dose">Evaluation de dose</string>
+    <string name="loi_et_decrets">Loi et Decrets</string>
+    <string name="a_propos">A propos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+</resources>
